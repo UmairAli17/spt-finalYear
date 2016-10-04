@@ -1,0 +1,29 @@
+.box1{
+	border: solid 1px;
+	width: 100%;
+	height: auto;
+}
+
+.leftBox{
+    float: left;
+	border: solid 1px #000;
+	width: 25%;
+	height: 2000px;
+}
+
+.rightBox{
+    float: right;
+	border: solid 1px #000;
+	width: 25%;
+	height: 2000px;
+}
+
+#waypoint{
+	border: solid 1px;
+	height: 220px;
+	width: 100%;
+}
+
+#one{
+    height:2000px;
+}
