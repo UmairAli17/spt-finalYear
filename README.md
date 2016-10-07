@@ -28,3 +28,15 @@ Run gulp to check whether it's installed
 ```npm
 gulp -v
 ```
+
+Run the gulp tasks to compiled and concatinate files:
+```npm
+gulp
+```
+
+Run server to view site
+```npm
+gulp serve
+```
+
+Any issues then feel free to contact me on U1351864@unimail.hud.ac.uk or on my personal email: umairali17@hotmail.co.uk
