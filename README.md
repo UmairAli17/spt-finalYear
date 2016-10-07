@@ -1,6 +1,14 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Bare](http://startbootstrap.com/template-overviews/bare/)
+# [Requisites]
 
-[Bare](http://startbootstrap.com/template-overviews/bare/) is a bare HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
+1. Node.js
+2. Git
+
+# [Plugins & Templates Used]
+
+1. Waypoints.js
+2. jQuery
+3. Bootstrap.css
+4. Animate.css
 
 ## Getting Started
 
