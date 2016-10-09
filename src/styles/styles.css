@@ -1,0 +1,18 @@
+/*Welcome Section*/
+.body {
+  font-family: "Lato", sans-serif; }
+
+.welcome {
+  padding: 1%;
+  background: #dbfefe; }
+
+.navbar-inverse {
+  background: #fff; }
+
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center; }
+
+.timeRow {
+  padding: 1% 0 1% 0; }

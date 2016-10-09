@@ -9,16 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
-
+    <title>Bare - Start Bootstrap Template</title> 
     <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-    <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,75 +24,98 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <!--Start of Nav-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#one">About</a>
-                    </li>
-                    <li>
-                        <a href="#two">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="jumbotron">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        <!-- Page Content -->
+        <div class="container-fluid">
 
-</p>
+            <div class="row">
+                <div class="col-md-12 welcome">
+                    <div class="col-md-5 pull-right">
+                        <p>Hello to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div id="one" class="col-lg-12">
-                <!--First row-->
-                <div class="row" style="border: solid 1px">
-                    <!--Left Box-->
-                    <div class="col-md-5" style="border: solid 1px">
-                        <div id="leftBox" class="animated">
-                            <p>Testing to see whether this will float in from the left</p>
+
+                    <!--Timeline Section-->
+                    <div class="row">
+                        <h2>The History of the</h2>
+                        <h2>Internet of Things!</h2>
+                        <div id="one" class="col-lg-12">
+                                <!--First row-->
+                                <div class="row timeRow">
+                                    <!--Left Box-->
+                                    <div class="col-md-3 col-md-offset-3">
+                                        <div class="animated pull-right leftBox">
+                                            <p>Testing to see whether this will float in from the left</p>
+                                        </div>
+                                    </div>
+                                    <!--Right Box-->
+                                    <div class="col-md-6" style="border:solid 1px #000;">
+                                        <p>Image Here</p>
+                                    </div>
+                                </div>
+                                <!--Second Row-->
+                                <div class="row timeRow">
+                                <!--Right Box-->
+                                    <div class="col-md-6" style="border:solid 1px #000;">
+                                        <p>Image Here</p>
+                                    </div>
+                                    <!--Left Box-->
+                                    <div class="col-md-3">
+                                        <div class="animated pull-left rightBox">
+                                            <p>Testing to see whether this will float in from the right</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <!--First row-->
+                                <div class="row timeRow">
+                                    <!--Left Box-->
+                                    <div class="col-md-3 col-md-offset-3">
+                                        <div class="animated pull-right leftBox">
+                                            <p>Testing to see whether this will float in from the left</p>
+                                        </div>
+                                    </div>
+                                    <!--Right Box-->
+                                    <div class="col-md-6" style="border:solid 1px #000;">
+                                        <p>Image Here</p>
+                                    </div>
+                                </div>
+                                <!--Second Row-->
+                                <div class="row timeRow">
+                                <!--Right Box-->
+                                    <div class="col-md-6" style="border:solid 1px #000;">
+                                        <p>Image Here</p>
+                                    </div>
+                                    <!--Left Box-->
+                                    <div class="col-md-3">
+                                        <div class="animated pull-left rightBox">
+                                            <p>Testing to see whether this will float in from the right</p>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
-                    <!--Right Box-->
-                    <div class="col-md-5 col-md-offset-2">
-                        
-                    </div>
-                </div>
-                <!--Second Row-->
-                <div class="row" style="border: solid 1px">
-                    <!--Left Box-->
-                    <div class="col-md-5">
-                    </div>
-                    <!--Right Box-->
-                    <div class="col-md-5 col-md-offset-2" style="border: solid 1px">
-                            <div id="rightBox" class="animated">
-                                <p>Testing to see whether this will float in from the left</p>
-                            </div>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- /.row -->

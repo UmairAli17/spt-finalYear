@@ -1,0 +1,30 @@
+$padding : 1%;
+$main_colour: #dbfefe;
+$second_colour: #fff;
+$no_border: none;
+$font: 'Lato', sans-serif;
+$heading: 1em, strong, center;
+$top_bottom: 1% 0 1% 0;
+/*Welcome Section*/
+.body{
+	font-family: $font;
+}
+
+.welcome{
+	padding: $padding;
+	background: $main_colour;
+}
+
+.navbar-inverse{
+	background: $second_colour;
+}
+
+h2{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.timeRow{
+	padding: $top_bottom;
+}

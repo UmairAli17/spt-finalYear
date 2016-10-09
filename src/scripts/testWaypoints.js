@@ -1,27 +1,27 @@
 //First Waypoint
-var $firstAnimate = $('#leftBox');
-var $secondAnimate = $('#rightBox');
+var $firstAnimate = $('.leftBox');
+var $secondAnimate = $('.rightBox');
 
 $(document).ready(function() {
     //Animate First Box Coming From Left
     $firstAnimate.css('opacity', 0);
-	$firstAnimate.waypoint(function(direction) {
+	  $firstAnimate.waypoint(function(direction) {
       if (direction === 'down') {
          $(this.element).addClass('fadeInLeft');
       }
     }, {
-      offset: '40%'
+      offset: '20%'
     });
     
     
     //Animate Second Box coming from right
     $secondAnimate.css('opacity', 0);
-	$secondAnimate.waypoint(function(direction) {
+  	$secondAnimate.waypoint(function(direction) {
       if (direction === 'down') {
-         $(this.element).addClass('fadeInRight');
+         $(this.element).addClass('fadeInRight delay-05s');
       }
     }, {
-      offset: '25%'
+      offset: '20%'
     });
 
 
