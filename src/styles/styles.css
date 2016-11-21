@@ -1,10 +1,15 @@
 /*Welcome Section*/
-.body {
-  font-family: "Lato", sans-serif; }
+body {
+  padding-top: 52px;
+  font-family: "Lato", sans-serif;
+  background: #b2eaff; }
 
 .welcome {
-  padding: 1%;
-  background: #dbfefe; }
+  background-image: url(../images/bg1.png);
+  background-repeat: no-repeat;
+  background-position: 55%;
+  background-size: cover;
+  min-height: 460px; }
 
 .navbar-inverse {
   background: #fff; }
@@ -14,5 +19,26 @@ h2 {
   font-weight: bold;
   text-align: center; }
 
+#one {
+  height: 2000px; }
+
 .timeRow {
   padding: 1% 0 1% 0; }
+
+.timeline-middle:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 2px solid #AAA; }
+
+/*Adding Delays to Animations*/
+.delay-05s {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+.delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }

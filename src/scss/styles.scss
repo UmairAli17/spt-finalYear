@@ -5,14 +5,24 @@ $no_border: none;
 $font: 'Lato', sans-serif;
 $heading: 1em, strong, center;
 $top_bottom: 1% 0 1% 0;
+
+
+$primary-colour-dark: #b2eaff;
+
+
 /*Welcome Section*/
-.body{
+body{
+    padding-top: 52px;
 	font-family: $font;
+    background: $primary-colour-dark;
 }
 
 .welcome{
-	padding: $padding;
-	background: $main_colour;
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-position: 55%;
+    background-size: cover;
+    min-height: 460px;
 }
 
 .navbar-inverse{
@@ -25,6 +35,32 @@ h2{
 	text-align: center;
 }
 
+
+#one{
+    height: 2000px;
+}
 .timeRow{
 	padding: $top_bottom;
+}
+
+.timeline-middle:after{
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px solid #AAA;
+}
+
+
+/*Adding Delays to Animations*/
+.delay-05s {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
