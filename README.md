@@ -17,14 +17,15 @@ Clone the repo using:
 ```git
 git clone https://github.com/UmairAli17/spt-finalYear.git
 ```
-Install node_modules:
-```npm
-npm install
-```
 
 Install Gulp Globally if you've not already done so:
 ```npm
 npm install gulp -g
+```
+
+Install node_modules:
+```npm
+npm install
 ```
 
 Install Gulp within project
@@ -44,7 +45,7 @@ gulp
 
 Run server to view site
 ```npm
-gulp serve
+gulp watch
 ```
 
 Any issues then feel free to contact me on U1351864@unimail.hud.ac.uk or on my personal email: umairali17@hotmail.co.uk
