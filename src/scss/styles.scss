@@ -9,12 +9,31 @@ $top_bottom: 1% 0 1% 0;
 
 $primary-colour-dark: #b2eaff;
 
-
 /*Welcome Section*/
 body{
     padding-top: 52px;
 	font-family: $font;
     background: $primary-colour-dark;
+}
+
+.cloud-bg-left{
+    background: url(../images/cloud.png);
+    height: 252px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    min-width: 473px;
+        position: relative;
+    right: 50%;
+}
+
+.cloud-bg-right{
+    background: url(../images/cloud.png);
+    height: 252px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    min-width: 473px;
+        position: relative;
+    left: 50%;
 }
 
 .welcome{
@@ -39,6 +58,7 @@ h2{
 #one{
     height: 2000px;
 }
+
 .timeRow{
 	padding: $top_bottom;
 }
@@ -53,6 +73,16 @@ h2{
     border-left: 2px solid #AAA;
 }
 
+
+.time-text{
+    position: relative;
+    /* display: inline-block; */
+    vertical-align: bottom;
+    width: 250px;
+    top: 20%;
+    left: 20%;
+    letter-spacing: .05em;
+}
 
 /*Adding Delays to Animations*/
 .delay-05s {

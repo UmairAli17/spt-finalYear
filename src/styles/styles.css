@@ -4,6 +4,24 @@ body {
   font-family: "Lato", sans-serif;
   background: #b2eaff; }
 
+.cloud-bg-left {
+  background: url(../images/cloud.png);
+  height: 252px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  min-width: 473px;
+  position: relative;
+  right: 50%; }
+
+.cloud-bg-right {
+  background: url(../images/cloud.png);
+  height: 252px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  min-width: 473px;
+  position: relative;
+  left: 50%; }
+
 .welcome {
   background-image: url(../images/bg1.png);
   background-repeat: no-repeat;
@@ -33,6 +51,15 @@ h2 {
   bottom: 0;
   left: 50%;
   border-left: 2px solid #AAA; }
+
+.time-text {
+  position: relative;
+  /* display: inline-block; */
+  vertical-align: bottom;
+  width: 250px;
+  top: 20%;
+  left: 20%;
+  letter-spacing: .05em; }
 
 /*Adding Delays to Animations*/
 .delay-05s {
