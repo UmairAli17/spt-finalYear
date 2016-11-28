@@ -28,7 +28,7 @@ $(document).ready(function() {
         $(".img-left").addClass('fadeIn');
       }
     }, {
-      offset: '35%'
+      offset: '36%'
     });
     
 

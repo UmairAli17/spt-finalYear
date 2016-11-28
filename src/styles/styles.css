@@ -1,8 +1,10 @@
+/*MIXINS*/
 /*Welcome Section*/
 body {
   padding-top: 52px;
   font-family: "Lato", sans-serif;
-  background: #b2eaff; }
+  background: #b2eaff;
+  overflow-x: hidden; }
 
 .cloud-bg-left {
   background: url(../images/cloud.png);
@@ -20,14 +22,16 @@ body {
   background-repeat: no-repeat;
   min-width: 473px;
   position: relative;
-  left: 50%; }
+  left: 2.5%; }
 
 .welcome {
   background-image: url(../images/bg1.png);
   background-repeat: no-repeat;
-  background-position: 55%;
+  background-position: 50%;
   background-size: cover;
-  min-height: 460px; }
+  min-height: 460px;
+  position: fixed;
+  z-index: -5000; }
 
 .navbar-inverse {
   background: #fff; }
@@ -38,7 +42,15 @@ h2 {
   text-align: center; }
 
 #one {
-  height: 2000px; }
+  height: 3000px;
+  background: #b2eaff;
+  position: absolute;
+  /* here, fixed or relative may work too*/
+  left: 0;
+  right: 0;
+  top: 55%;
+  bottom: 0;
+  overflow-y: scroll; }
 
 .timeRow {
   padding: 1% 0 1% 0; }
@@ -46,7 +58,7 @@ h2 {
 .timeline-middle:after {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 100;
   top: 0;
   bottom: 0;
   left: 50%;

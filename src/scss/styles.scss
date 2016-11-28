@@ -9,11 +9,24 @@ $top_bottom: 1% 0 1% 0;
 
 $primary-colour-dark: #b2eaff;
 
+/*MIXINS*/
+
+@mixin content-wrapper($top)
+{
+  position: absolute; /* here, fixed or relative may work too*/
+  left: 0;
+  right: 0;
+  top: $top;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
 /*Welcome Section*/
 body{
     padding-top: 52px;
 	font-family: $font;
     background: $primary-colour-dark;
+    overflow-x: hidden;
 }
 
 .cloud-bg-left{
@@ -33,15 +46,17 @@ body{
     background-repeat: no-repeat;
     min-width: 473px;
         position: relative;
-    left: 50%;
+    left: 2.5%;
 }
 
 .welcome{
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
-    background-position: 55%;
+    background-position: 50%;
     background-size: cover;
     min-height: 460px;
+    position: fixed;
+    z-index: -5000;
 }
 
 .navbar-inverse{
@@ -55,8 +70,14 @@ h2{
 }
 
 
+.content-wrapper{
+    
+}
+
 #one{
-    height: 2000px;
+    height: 3000px;
+    background: $primary-colour-dark;
+    @include content-wrapper(55%);
 }
 
 .timeRow{
@@ -66,7 +87,7 @@ h2{
 .timeline-middle:after{
     content:"";
     position: absolute;
-    z-index: -1;
+    z-index: 100;
     top: 0;
     bottom: 0;
     left: 50%;
