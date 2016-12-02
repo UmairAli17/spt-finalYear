@@ -2,17 +2,19 @@
 var $firstAnimate = $('.leftBox');
 var $secondAnimate = $('.rightBox');
 var $audioWaypoint = $('.audioBox');
+var $tContent = $('.tContent')
 var $audio = $(".music").get(0);
 var $endAudio = $('.endAudio');
 
 $(document).ready(function() {
+    
     //Animate First Box Coming From Left
     $firstAnimate.css('opacity', 0);
     $(".img-right").css('opacity', 0);
 	  $firstAnimate.waypoint(function(direction) {
       if (direction === 'down') {
          $(this.element).addClass('fadeIn');
-          $(".img-right").addClass('fadeIn');
+            $(".img-right").addClass('fadeIn');
       }
     }, {
       offset: '35%'
@@ -25,7 +27,17 @@ $(document).ready(function() {
   	$secondAnimate.waypoint(function(direction) {
       if (direction === 'down') {
          $(this.element).addClass('fadeIn');
-        $(".img-left").addClass('fadeIn');
+            $(".img-left").addClass('fadeIn');
+      }
+    }, {
+      offset: '36%'
+    });
+    
+    //Animate Second Box coming from right
+    $tContent.css('opacity', 0);
+  	$tContent.waypoint(function(direction) {
+      if (direction === 'down') {
+         $(this.element).addClass('bounceIn');
       }
     }, {
       offset: '36%'

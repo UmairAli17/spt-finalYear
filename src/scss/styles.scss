@@ -8,6 +8,7 @@ $top_bottom: 1% 0 1% 0;
 
 
 $primary-colour-dark: #b2eaff;
+$primary-colour: #00D5FF;
 
 /*MIXINS*/
 
@@ -35,8 +36,6 @@ body{
     background-size: 90%;
     background-repeat: no-repeat;
     min-width: 473px;
-        position: relative;
-    right: 50%;
 }
 
 .cloud-bg-right{
@@ -70,11 +69,8 @@ h2{
 }
 
 
-.content-wrapper{
-    
-}
 
-#one{
+.one{
     height: 3000px;
     background: $primary-colour-dark;
     @include content-wrapper(55%);
@@ -103,6 +99,17 @@ h2{
     top: 20%;
     left: 20%;
     letter-spacing: .05em;
+}
+
+
+/******************** Second Section***********************/
+
+.two{
+    min-width: 100%;
+    background: $primary-colour;
+    height: 2500px;
+    position: absolute;
+    top: 3000px;
 }
 
 /*Adding Delays to Animations*/

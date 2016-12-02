@@ -11,9 +11,7 @@ body {
   height: 252px;
   background-size: 90%;
   background-repeat: no-repeat;
-  min-width: 473px;
-  position: relative;
-  right: 50%; }
+  min-width: 473px; }
 
 .cloud-bg-right {
   background: url(../images/cloud.png);
@@ -41,7 +39,7 @@ h2 {
   font-weight: bold;
   text-align: center; }
 
-#one {
+.one {
   height: 3000px;
   background: #b2eaff;
   position: absolute;
@@ -72,6 +70,14 @@ h2 {
   top: 20%;
   left: 20%;
   letter-spacing: .05em; }
+
+/******************** Second Section***********************/
+.two {
+  min-width: 100%;
+  background: #00D5FF;
+  height: 2500px;
+  position: absolute;
+  top: 3000px; }
 
 /*Adding Delays to Animations*/
 .delay-05s {
