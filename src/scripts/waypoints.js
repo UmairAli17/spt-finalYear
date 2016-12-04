@@ -13,8 +13,8 @@ $(document).ready(function() {
     $(".img-right").css('opacity', 0);
 	  $firstAnimate.waypoint(function(direction) {
       if (direction === 'down') {
-         $(this.element).addClass('fadeIn');
-            $(".img-right").addClass('fadeIn');
+         $(this.element).addClass('animated fadeIn');
+            $(".img-right").addClass('animated fadeIn');
       }
     }, {
       offset: '35%'
@@ -26,8 +26,8 @@ $(document).ready(function() {
      $(".img-left").css('opacity', 0);
   	$secondAnimate.waypoint(function(direction) {
       if (direction === 'down') {
-         $(this.element).addClass('fadeIn');
-            $(".img-left").addClass('fadeIn');
+         $(this.element).addClass('animated fadeIn');
+            $(".img-left").addClass('animated fadeIn');
       }
     }, {
       offset: '36%'
