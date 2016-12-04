@@ -8,9 +8,9 @@ var uglify = require('gulp-uglify');
 var gulpIf = require('gulp-if');
 var cssnano = require('gulp-cssnano');
 var runSequence = require('run-sequence');
-/*var imagemin = require('gulp-imagemin');
+var imagemin = require('gulp-imagemin');
 var del = require('del');
-var cache = require('gulp-cache');*/
+var cache = require('gulp-cache');
 
 //compile the sass
 gulp.task('sass', function() {
@@ -33,14 +33,14 @@ gulp.task('fonts', function() {
 })
 
 //minify images
-//gulp.task('images', function(){
-//return gulp.src('src/images/**/*.+(png|jpg|jpeg|gif|svg)')
-//// Caching images that ran through imagemin
-//.pipe(cache(imagemin({
-//    interlaced: true
-//  })))
-//.pipe(gulp.dest('dist/images'))
-//});
+gulp.task('images', function(){
+return gulp.src('src/images/**/*.+(png|jpg|jpeg|gif|svg)')
+// Caching images that ran through imagemin
+.pipe(cache(imagemin({
+   interlaced: true
+ })))
+.pipe(gulp.dest('dist/images'))
+});
 
 //Set up the server
 gulp.task('browserSync', function() {

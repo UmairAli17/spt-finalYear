@@ -37,7 +37,7 @@ $(document).ready(function() {
     $tContent.css('opacity', 0);
   	$tContent.waypoint(function(direction) {
       if (direction === 'down') {
-         $(this.element).addClass('bounceIn');
+         $(this.element).addClass('animated bounceIn');
       }
     }, {
       offset: '36%'
