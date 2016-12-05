@@ -79,7 +79,7 @@ gulp.task('watch', ['browserSync', 'sass'], function(){
 //the following will run all the below tasks in the order they are written. items in [] will run in parallel
 gulp.task('build', function (callback) {
   runSequence('clean:dist',
-    ['sass', 'useref', /*'images',*/ 'fonts', 'audio'],
+    ['sass', 'useref', 'images', 'fonts', 'audio'],
     callback
   )
 })
