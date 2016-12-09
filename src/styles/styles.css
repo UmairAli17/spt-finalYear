@@ -1,7 +1,6 @@
 /*MIXINS*/
 /*Welcome Section*/
 body {
-  padding-top: 52px;
   font-family: "Lato", sans-serif;
   background: #b2eaff;
   overflow-x: hidden; }
@@ -39,7 +38,7 @@ h2 {
   font-weight: bold;
   text-align: center; }
 
-.one {
+#one {
   height: 3000px;
   background: #b2eaff;
   position: absolute;
@@ -64,15 +63,14 @@ h2 {
 
 .time-text {
   position: relative;
-  /* display: inline-block; */
   vertical-align: bottom;
-  width: 250px;
-  top: 20%;
-  left: 20%;
+  width: 50%;
+  top: 27.5%;
+  left: 23%;
   letter-spacing: .05em; }
 
 /******************** Second Section***********************/
-.two {
+#two {
   min-width: 100%;
   background: #00D5FF;
   height: 2500px;
