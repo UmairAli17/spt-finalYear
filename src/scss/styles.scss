@@ -24,7 +24,6 @@ $primary-colour: #00D5FF;
 
 /*Welcome Section*/
 body{
-    padding-top: 52px;
 	font-family: $font;
     background: $primary-colour-dark;
     overflow-x: hidden;
@@ -99,6 +98,28 @@ h2{
     letter-spacing: .05em;
 }
 
+
+
+/****SVG ***/
+    /****SVG Clours*/
+    $base: #FF5050;
+    $base-darker: #FF3333;
+    $white: #fff;
+
+.telegraph-base{
+    fill:$base;
+}
+
+.telegraph-darker{
+    fill: $base-darker;
+}
+
+.telegraph-white{
+    fill:$white;
+}
+
+.bg-bar{fill:#FFFFFF;}
+.bar-lines{fill:#444444;}
 
 /******************** Second Section***********************/
 

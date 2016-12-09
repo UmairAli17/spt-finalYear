@@ -54,7 +54,7 @@ $(document).ready(function() {
        console.log($rowMusic);
       }
     }, {
-      offset: '35%'
+      offset: '100%'
     });
     
     $endAudio.waypoint(function(){
