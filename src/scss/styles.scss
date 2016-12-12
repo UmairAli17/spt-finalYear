@@ -33,7 +33,7 @@ body{
 .cloud-bg-left{
     background: url(../images/cloud.png);
     height: 352px;
-    background-size: 90%;
+    background-size: 50%;
     background-repeat: no-repeat;
     min-width: 473px;
 }
@@ -46,11 +46,9 @@ body{
 .cloud-bg-right{
     background: url(../images/cloud.png);
     height: 352px;
-    background-size: 90%;
+    background-size: 50%;
     background-repeat: no-repeat;
     min-width: 473px;
-        position: relative;
-    left: 2.5%;
 }
 
 .welcome{
@@ -83,10 +81,21 @@ h2{
     overflow-x: hidden;
 }
 
+.container-cont{
+    margin: 0 auto;
+    width: 95%;
+    min-height: 100%;
+    border: solid;
+}
+
+
 .timeRow{
     float: left;
-    min-width: 100%;
-	padding: $top_bottom;
+    min-width: 90%;
+    padding: 1% 0 1% 0;
+    border: solid;
+    padding-top: 3em;
+    padding-left: 15%;
 }
 
 .timeline-middle:after{
@@ -100,34 +109,36 @@ h2{
 }
 
 .time-text{
-    position: relative;
-    vertical-align: bottom;
-    width: 50%;
-    top: 20%;
-    left: 23%;
+    border: solid 1px;
     letter-spacing: .05em;
+    width: 30%;
+    max-height: 300px;
+    position: relative;
+    top: 17%;
+    left: 11%;
+}
+
+.tContent{
+    max-width: 50%;
 }
 
 .lb-container{
     float:left;
-    width: 25%;
-    margin-left: 17%;
+    width: 50%;
 }
 
 .rb-container-img{
     float: left;
-    width: 25%;
-    margin-left: 7%;
+    width: 50%;
 }
 
 .rb-container{
     float: left;
-    width: 25%;
-    margin-left: 7%;
+    width: 50%;
 }
 
 .margin-top{
-    margin-top: .5em;
+    margin-top: 3em;
 }
 
 
@@ -177,27 +188,24 @@ h2{
 
 /***** RESPONSIVE ******/
 
-@media (min-width: 1024px) and (max-width: 1130px){
-    .rb-container{
-        margin-left: 18%;
+@media (min-width:1025px) { 
+    .cloud-bg-left{
+        background-size: 75%;
     }
-}
 
-@media (min-width: 1131px)
-{
-    .rb-container{
-        margin-left: 10%;
+    .cloud-bg-right{
+        background-size:75%;
     }
-}
 
-@media (min-width: 1547px) and (max-width: 1546px){
     .time-text{
-        top: 29%;
+        width: 55%;
+    }
+
+    .timeRow{
+        padding-left: 10%;
     }
 }
 
-@media (min-width: 1796px){
-    .rb-container{
-        margin-left: 7%;
-    }
+@media (min-width:1281px) {
+
 }
