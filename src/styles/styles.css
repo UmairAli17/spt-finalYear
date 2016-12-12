@@ -3,18 +3,24 @@
 body {
   font-family: "Lato", sans-serif;
   background: #b2eaff;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px; }
 
 .cloud-bg-left {
   background: url(../images/cloud.png);
-  height: 252px;
+  height: 352px;
   background-size: 90%;
   background-repeat: no-repeat;
   min-width: 473px; }
 
+.container-fluid {
+  float: left;
+  width: 100%; }
+
 .cloud-bg-right {
   background: url(../images/cloud.png);
-  height: 252px;
+  height: 352px;
   background-size: 90%;
   background-repeat: no-repeat;
   min-width: 473px;
@@ -22,11 +28,12 @@ body {
   left: 2.5%; }
 
 .welcome {
+  min-width: 100%;
   background-image: url(../images/bg1.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  min-height: 460px;
+  min-height: 427px;
   position: fixed;
   z-index: -5000; }
 
@@ -47,9 +54,11 @@ h2 {
   right: 0;
   top: 55%;
   bottom: 0;
-  overflow-y: scroll; }
+  overflow-x: hidden; }
 
 .timeRow {
+  float: left;
+  min-width: 100%;
   padding: 1% 0 1% 0; }
 
 .timeline-middle:after {
@@ -65,9 +74,27 @@ h2 {
   position: relative;
   vertical-align: bottom;
   width: 50%;
-  top: 27.5%;
+  top: 20%;
   left: 23%;
   letter-spacing: .05em; }
+
+.lb-container {
+  float: left;
+  width: 25%;
+  margin-left: 17%; }
+
+.rb-container-img {
+  float: left;
+  width: 25%;
+  margin-left: 7%; }
+
+.rb-container {
+  float: left;
+  width: 25%;
+  margin-left: 7%; }
+
+.margin-top {
+  margin-top: .5em; }
 
 /****SVG ***/
 /****SVG Clours*/
@@ -102,3 +129,12 @@ h2 {
 .delay-1s {
   -webkit-animation-delay: 1s;
   animation-delay: 1s; }
+
+/***** RESPONSIVE ******/
+@media (min-width: 1024px) and (max-width: 1546px) {
+  .rb-container {
+    margin-left: 16%; } }
+
+@media (min-width: 1547px) and (max-width: 1546px) {
+  .time-text {
+    top: 29%; } }
