@@ -177,9 +177,16 @@ h2{
 
 /***** RESPONSIVE ******/
 
-@media (min-width: 1024px) and (max-width: 1546px){
+@media (min-width: 1024px) and (max-width: 1130px){
     .rb-container{
-        margin-left: 16%;
+        margin-left: 18%;
+    }
+}
+
+@media (min-width: 1131px)
+{
+    .rb-container{
+        margin-left: 10%;
     }
 }
 
@@ -190,4 +197,7 @@ h2{
 }
 
 @media (min-width: 1796px){
+    .rb-container{
+        margin-left: 7%;
+    }
 }
