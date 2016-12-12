@@ -85,7 +85,6 @@ h2{
     margin: 0 auto;
     width: 95%;
     min-height: 100%;
-    border: solid;
 }
 
 
@@ -93,7 +92,6 @@ h2{
     float: left;
     min-width: 90%;
     padding: 1% 0 1% 0;
-    border: solid;
     padding-top: 3em;
     padding-left: 15%;
 }
@@ -109,7 +107,6 @@ h2{
 }
 
 .time-text{
-    border: solid 1px;
     letter-spacing: .05em;
     width: 30%;
     max-height: 300px;
@@ -188,7 +185,7 @@ h2{
 
 /***** RESPONSIVE ******/
 
-@media (min-width:1025px) { 
+@media only screen and (min-width:1024px) { 
     .cloud-bg-left{
         background-size: 75%;
     }
@@ -206,6 +203,43 @@ h2{
     }
 }
 
-@media (min-width:1281px) {
+@media only screen and (min-width:1224px) {
+    .cloud-bg-left{
+        background-size: 75%;
+    }
 
+    .cloud-bg-right{
+        background-size:75%;
+    }
+
+    .time-text{
+        width: 40%;
+        left: 20%;
+    }
+
+    .timeRow{
+        padding-left: 10%;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1730px) {
+    .cloud-bg-left{
+        background-size: 75%;
+    }
+
+    .cloud-bg-right{
+        background-size:%;
+    }
+
+    .time-text{
+        width: 40%;
+        right: 10%;
+        top:30%;
+    }
+
+    .timeRow{
+        padding-left: 10%;
+    }
 }
