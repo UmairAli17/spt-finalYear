@@ -85,6 +85,7 @@ h2{
     margin: 0 auto;
     width: 95%;
     min-height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -237,6 +238,7 @@ and (min-width : 1730px) {
         width: 40%;
         right: 10%;
         top:30%;
+        font-size: 1.25em;
     }
 
     .timeRow{

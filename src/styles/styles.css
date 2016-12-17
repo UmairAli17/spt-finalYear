@@ -57,7 +57,8 @@ h2 {
 .container-cont {
   margin: 0 auto;
   width: 95%;
-  min-height: 100%; }
+  min-height: 100%;
+  overflow-x: hidden; }
 
 .timeRow {
   float: left;
@@ -166,6 +167,7 @@ h2 {
   .time-text {
     width: 40%;
     right: 10%;
-    top: 30%; }
+    top: 30%;
+    font-size: 1.25em; }
   .timeRow {
     padding-left: 10%; } }
