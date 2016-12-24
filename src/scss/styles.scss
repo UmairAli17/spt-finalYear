@@ -75,12 +75,19 @@ h2{
 
 
 #one{
-    height: 3000px;
+    height: 2000px;
     background: $primary-colour-dark;
     @include content-wrapper(55%);
     overflow-x: hidden;
+    background-image: url(../images/mountains.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
+.bottom-image{
+    position:absolute;
+    bottom:0;
+}
 .container-cont{
     margin: 0 auto;
     width: 95%;
@@ -118,6 +125,7 @@ h2{
 
 .tContent{
     max-width: 50%;
+    position: relative;
 }
 
 .lb-container{
@@ -197,10 +205,15 @@ h2{
 
     .time-text{
         width: 55%;
+        left:14%;
     }
 
     .timeRow{
         padding-left: 10%;
+    }
+
+    .tContent{
+        left:15%;
     }
 }
 

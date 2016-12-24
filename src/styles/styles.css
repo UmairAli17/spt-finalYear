@@ -44,7 +44,7 @@ h2 {
   text-align: center; }
 
 #one {
-  height: 3000px;
+  height: 2000px;
   background: #b2eaff;
   position: absolute;
   /* here, fixed or relative may work too*/
@@ -52,7 +52,14 @@ h2 {
   right: 0;
   top: 55%;
   bottom: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-image: url(../images/mountains.png);
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
+.bottom-image {
+  position: absolute;
+  bottom: 0; }
 
 .container-cont {
   margin: 0 auto;
@@ -85,7 +92,8 @@ h2 {
   left: 11%; }
 
 .tContent {
-  max-width: 50%; }
+  max-width: 50%;
+  position: relative; }
 
 .lb-container {
   float: left;
@@ -143,9 +151,12 @@ h2 {
   .cloud-bg-right {
     background-size: 75%; }
   .time-text {
-    width: 55%; }
+    width: 55%;
+    left: 14%; }
   .timeRow {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .tContent {
+    left: 15%; } }
 
 @media only screen and (min-width: 1224px) {
   .cloud-bg-left {
