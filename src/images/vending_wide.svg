@@ -1,60 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="250px"
-	 height="150px" viewBox="0 0 250 150" enable-background="new 0 0 250 150" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
+	 height="450px" viewBox="0 0 500 450" enable-background="new 0 0 500 450" xml:space="preserve">
 <g id="stands">
-	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="25.611,147.071 30.17,147.071 32.314,134.735 
-		23.196,134.735 	"/>
-	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="165.794,147.072 170.351,147.072 172.497,134.735 
-		163.378,134.735 	"/>
+	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="50.634,422.742 63.304,422.742 69.263,388.461 
+		43.925,388.461 	"/>
+	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="440.191,422.745 452.854,422.745 458.816,388.462 
+		433.478,388.462 	"/>
 </g>
 <g id="base">
-	<path fill="#EA4D67" stroke="#E94357" stroke-miterlimit="10" d="M184.778,132.544c0,2.162-2.6,3.917-5.805,3.917H15.804
-		c-3.204,0-5.804-1.754-5.804-3.917V8.053c0-2.164,2.601-3.917,5.804-3.917h163.169c3.205,0,5.805,1.753,5.805,3.917V132.544z"/>
+	<path fill="#EA4D67" stroke="#E94357" stroke-miterlimit="10" d="M492.946,382.372c0,6.009-7.224,10.883-16.129,10.883H23.382
+		c-8.903,0-16.129-4.874-16.129-10.883V36.422c0-6.014,7.227-10.885,16.129-10.885h453.435c8.905,0,16.129,4.871,16.129,10.885
+		V382.372z"/>
 </g>
 <g id="Layer_2">
-	<rect x="17.315" y="14.235" fill="#E72E3E" stroke="#E62F3E" stroke-miterlimit="10" width="57.045" height="91.879"/>
+	<rect x="27.582" y="53.602" fill="#E72E3E" stroke="#E62F3E" stroke-miterlimit="10" width="158.523" height="255.325"/>
 </g>
 <g id="Layer_3">
 	
-		<text transform="matrix(0.0015 -1 1 0.0015 56.791 101.9556)" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'Windsor-Regular'" font-size="38.4431">Cola</text>
+		<text transform="matrix(0.0015 -1 1 0.0015 137.0815 297.1699)" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'Windsor-Regular'" font-size="106.8289">Cola</text>
 </g>
 <g id="coin">
-	<rect x="17.315" y="110.853" fill="#E62F3E" stroke="#E6303E" stroke-miterlimit="10" width="8.234" height="9.186"/>
+	<rect x="27.582" y="322.095" fill="#E62F3E" stroke="#E6303E" stroke-miterlimit="10" width="22.883" height="25.525"/>
 </g>
 <g id="out">
-	<rect x="31.342" y="116.648" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="108.015" height="10.441"/>
-	<rect x="31.342" y="110.638" fill="#C22840" stroke="#C22840" stroke-miterlimit="10" width="108.015" height="9.49"/>
+	<rect x="66.562" y="338.36" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="294.045" height="28.26"/>
+	<rect x="66.562" y="322.095" fill="#C22840" stroke="#C22840" stroke-miterlimit="10" width="294.045" height="25.685"/>
 </g>
 <g id="control">
-	<path fill="#C22840" stroke="#C22840" stroke-miterlimit="10" d="M178.942,96.331c0,2.241-3.102,4.056-6.926,4.056h-21.149
-		c-3.823,0-6.925-1.815-6.925-4.056V24.017c0-2.239,3.102-4.056,6.925-4.056h21.149c3.824,0,6.926,1.817,6.926,4.056V96.331z"/>
+	<path fill="#C22840" stroke="#C22840" stroke-miterlimit="10" d="M476.729,281.74c0,6.227-8.62,11.271-19.246,11.271h-58.771
+		c-10.625,0-19.245-5.044-19.245-11.271V80.784c0-6.221,8.62-11.271,19.245-11.271h58.771c10.626,0,19.246,5.05,19.246,11.271
+		V281.74z"/>
 </g>
 <g id="coin_1_">
-	<rect x="148.267" y="24.859" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="26.349" height="15.56"/>
+	<rect x="391.485" y="83.125" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="73.222" height="43.24"/>
 </g>
 <g id="Layer_8">
-	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="151.276" cy="51.099" r="1.521"/>
-	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M162.933,51.099c0,0.84-0.681,1.522-1.52,1.522
-		c-0.837,0-1.521-0.682-1.521-1.522c0-0.839,0.685-1.52,1.521-1.52C162.252,49.579,162.933,50.26,162.933,51.099z"/>
-	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="171.665" cy="51.099" r="1.52"/>
-	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="151.276" cy="66.306" r="1.521"/>
-	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M162.933,66.306c0,0.84-0.681,1.521-1.52,1.521
-		c-0.837,0-1.521-0.681-1.521-1.521s0.685-1.521,1.521-1.521C162.252,64.786,162.933,65.466,162.933,66.306z"/>
-	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="171.665" cy="66.306" r="1.52"/>
-	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="151.22" cy="81.512" r="1.52"/>
-	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="161.358" cy="81.512" r="1.521"/>
-	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="171.608" cy="81.512" r="1.52"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M404.074,156.042c0,2.336-1.895,4.23-4.227,4.23
+		c-2.335,0-4.227-1.894-4.227-4.23c0-2.331,1.892-4.224,4.227-4.224C402.18,151.819,404.074,153.711,404.074,156.042z"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M432.24,156.042c0,2.336-1.893,4.23-4.224,4.23
+		c-2.327,0-4.229-1.894-4.229-4.23c0-2.331,1.901-4.224,4.229-4.224C430.348,151.819,432.24,153.711,432.24,156.042z"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M460.728,156.042c0,2.336-1.89,4.23-4.226,4.23
+		c-2.333,0-4.224-1.894-4.224-4.23c0-2.331,1.891-4.224,4.224-4.224C458.838,151.819,460.728,153.711,460.728,156.042z"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="399.848" cy="198.303" r="4.227"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M432.24,198.303c0,2.336-1.893,4.227-4.224,4.227
+		c-2.327,0-4.229-1.891-4.229-4.227c0-2.335,1.901-4.225,4.229-4.225C430.348,194.078,432.24,195.968,432.24,198.303z"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="456.503" cy="198.303" r="4.225"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M403.914,240.559c0,2.335-1.895,4.226-4.223,4.226
+		c-2.334,0-4.226-1.891-4.226-4.226c0-2.333,1.892-4.225,4.226-4.225C402.02,236.334,403.914,238.226,403.914,240.559z"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M432.09,240.559c0,2.335-1.896,4.226-4.229,4.226
+		c-2.33,0-4.223-1.891-4.223-4.226c0-2.333,1.893-4.225,4.223-4.225C430.194,236.334,432.09,238.226,432.09,240.559z"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M460.569,240.559c0,2.335-1.893,4.226-4.22,4.226
+		c-2.336,0-4.227-1.891-4.227-4.226c0-2.333,1.891-4.225,4.227-4.225C458.677,236.334,460.569,238.226,460.569,240.559z"/>
 </g>
 <g id="coin_x5F_change">
 </g>
 <g id="window_x5F_out">
 	
-		<rect x="78.229" y="15.267" fill="#DAEFFB" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="59.898" height="89.904"/>
-	<path fill="#B6E1F7" d="M136.345,36.762"/>
+		<rect x="191.357" y="55.214" fill="#DAEFFB" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="169.249" height="252.299"/>
+	<path fill="#B6E1F7" d="M358.354,116.202"/>
 </g>
 <g id="reflection">
-	<polyline fill="#B6E1F7" points="120.257,16.752 136.643,16.752 136.643,40.221 88.675,103.452 79.687,103.452 79.687,76.544 	"/>
+	<polyline fill="#B6E1F7" points="310.111,59.383 356.41,59.383 356.41,125.244 220.872,302.688 195.476,302.688 195.476,227.178 	
+		"/>
 </g>
 </svg>
