@@ -7,6 +7,9 @@ body {
   padding: 0px;
   margin: 0px; }
 
+.center {
+  text-align: center; }
+
 .cloud-bg-left {
   background: url(../images/cloud.png);
   height: 352px;
@@ -91,6 +94,9 @@ h2 {
   top: 17%;
   left: 11%; }
 
+.time-header {
+  font-size: 2em; }
+
 .tContent {
   max-width: 50%;
   position: relative; }
@@ -133,7 +139,7 @@ h2 {
   background: #00D5FF;
   height: 2500px;
   position: absolute;
-  top: 3000px; }
+  top: 2468px; }
 
 /*Adding Delays to Animations*/
 .delay-05s {
@@ -152,7 +158,12 @@ h2 {
     background-size: 75%; }
   .time-text {
     width: 55%;
-    left: 14%; }
+    left: 14%;
+    top: 5%;
+    font-size: 1em; }
+  .time-header {
+    font-size: 1.5em;
+    top: 10%; }
   .timeRow {
     padding-left: 10%; }
   .tContent {
@@ -163,11 +174,22 @@ h2 {
     background-size: 75%; }
   .cloud-bg-right {
     background-size: 75%; }
+  .time-header {
+    top: 10%; }
   .time-text {
     width: 40%;
     left: 20%; }
   .timeRow {
     padding-left: 10%; } }
+
+@media only screen and (min-width: 1500px) {
+  .time-header {
+    font-size: 2em;
+    top: 20%; }
+  .time-text {
+    width: 50%;
+    top: 10%;
+    left: 15%; } }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1730px) {
@@ -176,9 +198,11 @@ h2 {
   .cloud-bg-right {
     background-size: %; }
   .time-text {
-    width: 40%;
+    width: 50%;
     right: 10%;
-    top: 30%;
+    top: 20%;
     font-size: 1.25em; }
+  .time-header {
+    font-size: 2em; }
   .timeRow {
     padding-left: 10%; } }

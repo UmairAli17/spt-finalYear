@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="250px"
+	 height="150px" viewBox="0 0 250 150" enable-background="new 0 0 250 150" xml:space="preserve">
+<g id="stands">
+	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="25.611,147.071 30.17,147.071 32.314,134.735 
+		23.196,134.735 	"/>
+	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="165.794,147.072 170.351,147.072 172.497,134.735 
+		163.378,134.735 	"/>
+</g>
+<g id="base">
+	<path fill="#EA4D67" stroke="#E94357" stroke-miterlimit="10" d="M184.778,132.544c0,2.162-2.6,3.917-5.805,3.917H15.804
+		c-3.204,0-5.804-1.754-5.804-3.917V8.053c0-2.164,2.601-3.917,5.804-3.917h163.169c3.205,0,5.805,1.753,5.805,3.917V132.544z"/>
+</g>
+<g id="Layer_2">
+	<rect x="17.315" y="14.235" fill="#E72E3E" stroke="#E62F3E" stroke-miterlimit="10" width="57.045" height="91.879"/>
+</g>
+<g id="Layer_3">
+	
+		<text transform="matrix(0.0015 -1 1 0.0015 56.791 101.9556)" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'Windsor-Regular'" font-size="38.4431">Cola</text>
+</g>
+<g id="coin">
+	<rect x="17.315" y="110.853" fill="#E62F3E" stroke="#E6303E" stroke-miterlimit="10" width="8.234" height="9.186"/>
+</g>
+<g id="out">
+	<rect x="31.342" y="116.648" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="108.015" height="10.441"/>
+	<rect x="31.342" y="110.638" fill="#C22840" stroke="#C22840" stroke-miterlimit="10" width="108.015" height="9.49"/>
+</g>
+<g id="control">
+	<path fill="#C22840" stroke="#C22840" stroke-miterlimit="10" d="M178.942,96.331c0,2.241-3.102,4.056-6.926,4.056h-21.149
+		c-3.823,0-6.925-1.815-6.925-4.056V24.017c0-2.239,3.102-4.056,6.925-4.056h21.149c3.824,0,6.926,1.817,6.926,4.056V96.331z"/>
+</g>
+<g id="coin_1_">
+	<rect x="148.267" y="24.859" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="26.349" height="15.56"/>
+</g>
+<g id="Layer_8">
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="151.276" cy="51.099" r="1.521"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M162.933,51.099c0,0.84-0.681,1.522-1.52,1.522
+		c-0.837,0-1.521-0.682-1.521-1.522c0-0.839,0.685-1.52,1.521-1.52C162.252,49.579,162.933,50.26,162.933,51.099z"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="171.665" cy="51.099" r="1.52"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="151.276" cy="66.306" r="1.521"/>
+	<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M162.933,66.306c0,0.84-0.681,1.521-1.52,1.521
+		c-0.837,0-1.521-0.681-1.521-1.521s0.685-1.521,1.521-1.521C162.252,64.786,162.933,65.466,162.933,66.306z"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="171.665" cy="66.306" r="1.52"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="151.22" cy="81.512" r="1.52"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="161.358" cy="81.512" r="1.521"/>
+	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="171.608" cy="81.512" r="1.52"/>
+</g>
+<g id="coin_x5F_change">
+</g>
+<g id="window_x5F_out">
+	
+		<rect x="78.229" y="15.267" fill="#DAEFFB" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="59.898" height="89.904"/>
+	<path fill="#B6E1F7" d="M136.345,36.762"/>
+</g>
+<g id="reflection">
+	<polyline fill="#B6E1F7" points="120.257,16.752 136.643,16.752 136.643,40.221 88.675,103.452 79.687,103.452 79.687,76.544 	"/>
+</g>
+</svg>
