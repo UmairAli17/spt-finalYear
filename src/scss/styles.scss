@@ -189,6 +189,9 @@ h2{
     top: 2970px;
 }
 
+
+
+/*************************** ANIMATIONS *//////////////////
 /*Adding Delays to Animations*/
 .delay-05s {
     -webkit-animation-delay: 0.5s;
@@ -201,6 +204,32 @@ h2{
 }
 
 
+.pivot{
+    animation-duration: .5s;
+    animation-name: pivot_tele;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pivot_tele{
+    0% {
+        transform: rotate(-5deg);
+        transform-origin: 100% center;
+    }
+
+    50% {
+        transform: rotate(0deg);
+        transform-origin: 100% center; 
+    }
+
+    100{
+        transform: rotate(5deg);
+        transform-origin: 100% center;
+        webkit-transition: all .5 ease-in-out;
+        -moz-transition: all .5 ease-in-out;
+        -o-transition: all .5 ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+}
 
 /***** RESPONSIVE ******/
 

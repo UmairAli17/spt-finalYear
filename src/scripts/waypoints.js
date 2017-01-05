@@ -19,8 +19,19 @@ $(document).ready(function() {
     }, {
       offset: '35%'
     });
+
+    $("#top_tele").waypoint(function(direction){
+      if (direction == "down"){
+         $(this.element).addClass('pivot');
+      }
+    },{
+      offset: '100%'
+    });
     
-    
+    /*transform: rotate(45deg);
+    transform-origin:top center;*/
+
+
     //Animate Second Box coming from right
     $secondAnimate.css('opacity', 0);
      $(".img-left").css('opacity', 0);
