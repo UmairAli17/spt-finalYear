@@ -47,7 +47,7 @@ h2 {
   text-align: center; }
 
 #one {
-  height: 2500px;
+  height: 3500px;
   background: #b2eaff;
   position: absolute;
   /* here, fixed or relative may work too*/
@@ -139,7 +139,7 @@ h2 {
   background: #00D5FF;
   height: 2500px;
   position: absolute;
-  top: 2970px; }
+  top: 4024px; }
 
 /*************************** ANIMATIONS */
 /*Adding Delays to Animations*/
