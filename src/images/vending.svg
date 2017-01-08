@@ -4,36 +4,46 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
 	 height="450px" viewBox="0 0 500 450" enable-background="new 0 0 500 450" xml:space="preserve">
 <g id="stands">
-	<polyline fill="#E62E3D" stroke="#E62E3D" stroke-miterlimit="10" points="155.216,444.255 168.216,444.255 174.333,409.078 
+	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="155.216,444.255 168.216,444.255 174.333,409.078 
 		148.333,409.078 	"/>
-	<polyline fill="#E62E3D" stroke="#E62E3D" stroke-miterlimit="10" points="335.55,444.255 348.55,444.255 354.668,409.078 
+	<polyline fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" points="335.55,444.255 348.55,444.255 354.668,409.078 
 		328.667,409.078 	"/>
 </g>
 <g id="base">
-	<path fill="#E94D67" stroke="#E84357" stroke-miterlimit="10" d="M387,402.829c0,6.169-4.005,11.171-8.944,11.171H126.612
+	<path fill="#EA4D67" stroke="#E94357" stroke-miterlimit="10" d="M387,402.829c0,6.169-4.005,11.171-8.944,11.171H126.612
 		c-4.94,0-8.945-5.002-8.945-11.171V47.837c0-6.169,4.005-11.171,8.945-11.171h251.444c4.939,0,8.944,5.001,8.944,11.171V402.829z"
 		/>
 </g>
 <g id="Layer_2">
-	<rect x="134.333" y="73.333" fill="#E62E3D" stroke="#E84357" stroke-miterlimit="10" width="162.667" height="262"/>
+	<rect x="134.333" y="73.333" fill="#E72E3E" stroke="#E94357" stroke-miterlimit="10" width="162.667" height="262"/>
 </g>
 <g id="Layer_3">
 	
 		<text transform="matrix(0.0015 -1 1 0.0015 246.9277 323.5)" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" font-family="'Windsor-Regular'" font-size="109.6238">Cola</text>
 </g>
 <g id="coin">
-	<rect x="134.333" y="348" fill="#E62E3D" width="17.333" height="19.334"/>
+	<rect x="135" y="356" fill="#E62F3E" width="17.333" height="19.334"/>
 </g>
 <g id="out">
-	<rect x="174.333" y="357.667" fill="#E62E3D" stroke="#E62E3D" stroke-miterlimit="10" width="100" height="29"/>
-	<rect x="174.333" y="358.042" fill="#C12740" stroke="#C12740" stroke-miterlimit="10" width="100" height="16.917"/>
+	<rect x="174.333" y="357.667" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="100" height="29"/>
+	<g id="drinks_can">
+		<g>
+			<g>
+				<rect x="224.732" y="368.489" fill="#E30613" width="34.908" height="20.702"/>
+				<polygon fill="#3A3A3A" points="259.744,370.644 259.744,387.146 262.011,384.79 262.011,372.931 				"/>
+			</g>
+			<path fill="#FFFFFF" d="M242.849,389.191h7.313h0.873c-5.948,0-12.224-20.736-12.224-20.736l-5.129-0.109
+				c0,0,4.547,20.734,10.259,20.734L242.849,389.191z"/>
+		</g>
+	</g>
+	<rect x="174.333" y="357.042" fill="#C22840" stroke="#C22840" stroke-miterlimit="10" width="100" height="16.917"/>
 </g>
 <g id="control">
-	<path fill="#C12740" stroke="#C12740" stroke-miterlimit="10" d="M375,275.667c0,4.418-5.904,8-13.188,8h-40.291
+	<path fill="#C22840" stroke="#C22840" stroke-miterlimit="10" d="M375,275.667c0,4.418-5.904,8-13.188,8h-40.291
 		c-7.283,0-13.188-3.582-13.188-8V133c0-4.418,5.904-8,13.188-8h40.291c7.283,0,13.188,3.582,13.188,8V275.667z"/>
 </g>
 <g id="coin_1_">
-	<rect x="316.928" y="138.055" fill="#E62E3D" stroke="#E62E3D" stroke-miterlimit="10" width="49.479" height="30.695"/>
+	<rect x="316.928" y="138.055" fill="#E62F3E" stroke="#E62F3E" stroke-miterlimit="10" width="49.479" height="30.695"/>
 </g>
 <g id="Layer_8">
 	<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="321.556" cy="187.667" r="3"/>

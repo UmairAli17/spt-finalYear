@@ -37,11 +37,18 @@ $(document).ready(function() {
            $(this.element).addClass('animated flash')
         }
       },{
-        offset: '40%'
+        offset: '36%'
       });
     
-    /*transform: rotate(45deg);
-    transform-origin:top center;*/
+    $(".drinks_can").css('opacity', 0);
+    $(".drinks_can").waypoint(function(direction){
+        if (direction == "down"){
+          $(".drinks_can").css('opacity', 1);
+           $(this.element).addClass('drinks_can')
+        }
+      },{
+        offset: '36%'
+      });
 
 
     //Animate Second Box coming from right
@@ -77,7 +84,7 @@ $(document).ready(function() {
        console.log($rowMusic);
       }
     }, {
-      offset: '100%'
+      offset: '36%'
     });
     
     $endAudio.waypoint(function(){

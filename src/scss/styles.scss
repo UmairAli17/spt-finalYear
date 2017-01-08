@@ -79,7 +79,7 @@ h2{
 
 
 #one{
-    height: 3500px;
+    min-height: 3500px;
     background: $primary-colour-dark;
     @include content-wrapper(55%);
     overflow-x: hidden;
@@ -186,7 +186,7 @@ h2{
     background: #00D5FF;
     height: 2500px;
     position: absolute;
-    top: 4024px;
+    top: 3927px;
 }
 
 
@@ -212,16 +212,22 @@ h2{
 
 @keyframes pivot_tele{
     0% {
+        -ms-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
         transform: rotate(-7deg);
         transform-origin: 100%;
     }
 
     50% {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-        transform-origin: 100%; 
+        transform-origin: 100%;
     }
 
-    100{
+    100%{
+        -ms-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
         transform: rotate(5deg);
         transform-origin: 100%;
         webkit-transition: all .5 ease-in-out;
@@ -229,6 +235,31 @@ h2{
         -o-transition: all .5 ease-in-out;
         transition: all .5s ease-in-out;
     }
+}
+
+.drinks_can{
+    -webkit-animation: 1s drop_can;
+    animation-iteration-count:  infinite;
+}
+
+@keyframes drop_can{
+    0% {
+        transform: translateY(-.5em);
+        transform-origin: 100%;
+    }
+
+
+    100%{
+        -ms-transform: translateY(3.75em);
+        -webkit-transform: translateY(3.75em);
+        transform: translateY(3.75em);
+        transform-origin: 100%;
+        webkit-transition: all .5 ease-in-out;
+        -moz-transition: all .5 ease-in-out;
+        -o-transition: all .5 ease-in-out;
+        transition: all .5 ease-in-out;
+    }
+    
 }
 
 /***** RESPONSIVE ******/
@@ -277,8 +308,8 @@ h2{
     }
 
     .time-text{
-        width: 40%;
-        left: 20%;
+        width: 45%;
+        left: 17.5%;
     }
 
     .timeRow{
