@@ -81,7 +81,7 @@ $(document).ready(function() {
        //get a child div that's equal to .music which is in .audioBox
        var $rowMusic = $(this.element).children(".music").get(0);
        $rowMusic.play();
-       console.log($rowMusic);
+       //console.log($rowMusic);
       }
     }, {
       offset: '36%'
@@ -89,8 +89,13 @@ $(document).ready(function() {
     
     $endAudio.waypoint(function(){
         $audio.pause();
-        console.log($audio);
     });
 
+    // SECTION TWO CARD JS
 
+    $('.flip-card').click(function(e) {
+        /*var $cardMusic = $(this.element).children(".card-audio").get(0);
+        $cardMusic.play();*/
+        $(this).toggleClass('flipped');
+    });
 });

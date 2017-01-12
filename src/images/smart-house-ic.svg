@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px"
+	 height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
+<g id="base">
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M-23.666,175.742"/>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="7" stroke-miterlimit="10" d="M10.774,144.412h129.419
+			c1.549,0,2.807-1.166,2.807-2.604V68.635c0-1.437-0.889-3.427-1.986-4.443l-15.832-14.685c-1.096-1.016-1.984-3.005-1.984-4.444
+			v-9.399c0-1.438-1.258-2.603-2.807-2.603h-7.953c-1.549,0-2.807,1.165-2.807,2.603l0,0c0,1.438-0.92,1.811-2.059,0.834
+			L77.697,10.824c-1.137-0.977-2.982-0.979-4.122-0.005L10.031,65.135c-1.141,0.974-2.064,2.93-2.064,4.367v72.306
+			C7.967,143.246,9.223,144.412,10.774,144.412z"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<text transform="matrix(1 0 0 1 37.3325 123.6533)" fill="#FFFFFF" font-family="'MyriadPro-BoldCond'" font-size="12">SMART HOME</text>
+</g>
+<g id="CONNECTBASE">
+	<path fill="#FFFFFF" d="M79.28,103.152H69.22c-1.042,0-1.886-0.845-1.886-1.887v-10.06c0-1.042,0.844-1.887,1.886-1.887H79.28
+		c1.042,0,1.887,0.845,1.887,1.887v10.06C81.167,102.308,80.322,103.152,79.28,103.152z"/>
+</g>
+<g id="Layer_4">
+	<path fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" d="M55.885,79.816
+		c10.291-10.224,26.886-10.17,37.11,0.119"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" d="M47.425,73.944
+		c14.771-14.677,38.598-14.6,53.274,0.17"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" d="M37.79,67.575
+		c20.134-20.005,52.607-19.9,72.614,0.232"/>
+</g>
+</svg>

@@ -129,8 +129,8 @@ body {
 /******************** Second Section***********************/
 #two {
   min-width: 100%;
-  background: #54e3ff;
-  height: 2500px;
+  background: #fff;
+  height: 700px;
   position: absolute;
   top: 3927px; }
 
@@ -138,6 +138,59 @@ body {
   font-family: "Lato", sans-serif;
   text-align: left;
   font-size: 3em; }
+
+.flip-card {
+  float: left;
+  width: 25%;
+  height: 50%;
+  transition: all 0.2s;
+  perspective: 1000px;
+  overflow: hidden; }
+
+.front-card, .back-card {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  text-align: left;
+  backface-visibility: hidden;
+  transform-style: preserve3d;
+  transition: all ease 0.7s;
+  opacity: .9; }
+
+.front-card:hover, .back-card:hover {
+  opacity: 1; }
+
+.front-card {
+  background: #2b2b2b;
+  text-align: center; }
+
+.back-card {
+  background: #54e3ff; }
+
+.back-card {
+  transform: rotateX(-180deg); }
+
+.flipped .back-card {
+  transform: rotateX(0deg); }
+
+.flipped .front-card {
+  transform: rotateX(180deg); }
+
+.card-front-header {
+  color: #f7f7f7;
+  font-family: "Lato", sans-serif;
+  letter-spacing: .25em;
+  position: relative;
+  top: 1em; }
+
+.card-text {
+  padding: 1em;
+  text-align: center;
+  padding-top: 7em; }
+
+.card-img-front {
+  width: 50%; }
 
 /*************************** ANIMATIONS */
 /*Adding Delays to Animations*/
