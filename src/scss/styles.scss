@@ -2,7 +2,8 @@ $padding : 1%;
 $main_colour: #dbfefe;
 $second_colour: #fff;
 $no_border: none;
-$font: 'Lato', sans-serif;
+$header-font: 'Lato', sans-serif;
+$body-font: 'Merriweather', serif;
 $heading: 1em, strong, center;
 $top_bottom: 1% 0 1% 0;
 
@@ -23,7 +24,7 @@ $primary-colour: #00D5FF;
 
 /*Welcome Section*/
 body{
-	font-family: $font;
+	font-family: $body-font;
     background: $primary-colour-dark;
     overflow-x: hidden;
     padding: 0px;
@@ -70,10 +71,11 @@ body{
 	background: $second_colour;
 }
 
-h2{
+.first-sect-header{
 	font-size: 3em;
 	font-weight: bold;
 	text-align: center;
+    font-family: $header-font;
 }
 
 
@@ -108,18 +110,6 @@ h2{
     padding-left: 15%;
 }
 
-.timeline-middle:after{
-    content:"";
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    border-left: 2px solid #AAA;
-}
-
-
-
 .time-text{
     letter-spacing: .05em;
     width: 30%;
@@ -130,6 +120,7 @@ h2{
 }
 
 .time-header{
+    font-family: $header-font;
     font-size: 2em;
 }
 
@@ -183,10 +174,16 @@ h2{
 
 #two{
     min-width: 100%;
-    background: #00D5FF;
+    background: #54e3ff;
     height: 2500px;
     position: absolute;
     top: 3927px;
+}
+
+.two-header-main{
+    font-family: $header-font;
+    text-align: left;
+    font-size: 3em;
 }
 
 

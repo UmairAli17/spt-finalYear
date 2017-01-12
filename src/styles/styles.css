@@ -1,7 +1,7 @@
 /*MIXINS*/
 /*Welcome Section*/
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Merriweather", serif;
   background: #b2eaff;
   overflow-x: hidden;
   padding: 0px;
@@ -41,10 +41,11 @@ body {
 .navbar-inverse {
   background: #fff; }
 
-h2 {
+.first-sect-header {
   font-size: 3em;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  font-family: "Lato", sans-serif; }
 
 #one {
   min-height: 3500px;
@@ -77,15 +78,6 @@ h2 {
   padding-top: 3em;
   padding-left: 15%; }
 
-.timeline-middle:after {
-  content: "";
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  border-left: 2px solid #AAA; }
-
 .time-text {
   letter-spacing: .05em;
   width: 30%;
@@ -95,6 +87,7 @@ h2 {
   left: 11%; }
 
 .time-header {
+  font-family: "Lato", sans-serif;
   font-size: 2em; }
 
 .tContent {
@@ -136,10 +129,15 @@ h2 {
 /******************** Second Section***********************/
 #two {
   min-width: 100%;
-  background: #00D5FF;
+  background: #54e3ff;
   height: 2500px;
   position: absolute;
   top: 3927px; }
+
+.two-header-main {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 3em; }
 
 /*************************** ANIMATIONS */
 /*Adding Delays to Animations*/
