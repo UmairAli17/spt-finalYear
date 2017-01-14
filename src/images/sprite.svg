@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="250px"
+	 height="250px" viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve">
+<g id="base">
+	<path fill="#202021" d="M229.647,174.972H23.028c-2.761,0-5-1.733-5-3.873V39.408c0-2.139,2.239-3.873,5-3.873h206.619
+		c2.762,0,5,1.734,5,3.873v131.69C234.647,173.238,232.409,174.972,229.647,174.972z"/>
+</g>
+<g id="screen">
+	<rect x="36.5" y="46.38" fill="#9ED5E9" width="180" height="108.62"/>
+</g>
+<g id="eyes">
+	<ellipse fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="92.667" cy="68" rx="7.333" ry="10"/>
+	<ellipse fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="153.963" cy="68" rx="7.333" ry="10"/>
+	<rect x="55.5" y="111.25" fill="none" width="140.75" height="30"/>
+	<text transform="matrix(1 0 0 1 57.7759 119.77)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">Greetings!  Welcome to our </tspan><tspan x="18.126" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">Overview of the IoT!</tspan></text>
+</g>
+<g id="cornea">
+	<ellipse fill="#2B2B2B" stroke="#2B2B2B" stroke-miterlimit="10" cx="92.813" cy="67.625" rx="2.188" ry="3.875"/>
+	<ellipse fill="#2B2B2B" stroke="#2B2B2B" stroke-miterlimit="10" cx="153.963" cy="67.625" rx="2.188" ry="3.875"/>
+</g>
+<g id="eyebrows">
+	<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M77.458,58c4.217-8.243,14.299-11.5,22.542-7.283"
+		/>
+	<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M146.629,49.69
+		c8.81-2.846,18.242,1.979,21.088,10.79"/>
+</g>
+<g id="buttons">
+	<circle fill="#696969" cx="188.5" cy="167.25" r="2.5"/>
+	<circle fill="#696969" cx="197.5" cy="167.25" r="2.5"/>
+	<circle fill="#696969" cx="206.25" cy="167.25" r="2.5"/>
+	<circle fill="#696969" cx="215.25" cy="167.25" r="2.5"/>
+</g>
+<g id="speech">
+</g>
+</svg>
