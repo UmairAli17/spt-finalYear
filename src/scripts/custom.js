@@ -5,9 +5,36 @@ var $audioWaypoint = $('.audioBox');
 var $tContent = $('.tContent')
 var $audio = $(".music").get(0);
 var $endAudio = $('.endAudio');
-
+var $nav = $('.top-nav');
+var $logo = $('.logo-text');
+var $sec1 = $('#one');
+var $sec2 = $('#two');
 
 $(document).ready(function() {
+
+    $sec1.waypoint(function(direction){
+      if(direction === 'down'){
+        //change logo text
+        $logo.text('IoT: A History').fadeIn();
+      }
+      else if (direction === 'up') {
+        $logo.text('IoT').fadeIn();
+      }
+    },{
+        offset: '5%'
+    });
+
+    $sec2.waypoint(function(direction){
+      if(direction === 'down'){
+        //change logo text
+        $logo.text('IoT: Current Uses');
+      }
+      else if (direction === 'up') {
+        $logo.text('IoT: A History').fadeIn();
+      }
+    },{
+        offset: '15%'
+    });
     
     //Animate First Box Coming From Left
     $firstAnimate.css('opacity', 0);
@@ -27,7 +54,7 @@ $(document).ready(function() {
          $(this.element).addClass('pivot');
       }
     },{
-      offset: '100%'
+      offset: '20%'
     });
 
       $("#scanned_line").css('opacity', 0);
