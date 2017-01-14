@@ -10,12 +10,54 @@ var $logo = $('.logo-text');
 var $sec1 = $('#one');
 var $sec2 = $('#two');
 
+var $sprite = $('.sprite-container');
+var $speech_bubble = $('#speech'); 
+var $speech1 = $('.speech-text1'); 
+var $speech2 = $('.speech-text2');
+
 $(document).ready(function() {
+    // when the website loads, hide the sprite.
+    $sprite.css('opacity', 0);
+    // hide the speech bubble
+    // first sprite waypoint.
+    $('.sp1').waypoint(function(direction){
+      if(direction === 'down'){
+        $sprite.addClass('animated bounceInRight');
+        $sprite.css('opacity', 1);
+        $speech_bubble.css('opacity', 1);
+        $speech1.text('Hello! Welcome to our overview')
+        $speech2.text('of the Internet of Things!')
+      }
+    },
+    {
+      offset: '10%'
+    });
+
+    $('.sp2').waypoint(function(direction){
+      if(direction === 'down'){
+        $speech1.text('This is a history of the IoT from ')
+        $speech2.text('where past to present')
+      }
+    },
+    {
+      offset: '10%'
+    });
+
+    $('.sp3').waypoint(function(direction){
+      if(direction === 'down'){
+        $speech1.text('Umm.. Im getting a craving ')
+        $speech2.text('for some cola hehe')
+      }
+    },
+    {
+      offset: '10%'
+    });
 
     $sec1.waypoint(function(direction){
       if(direction === 'down'){
         //change logo text
         $logo.text('IoT: A History').fadeIn();
+        
       }
       else if (direction === 'up') {
         $logo.text('IoT').fadeIn();
@@ -28,6 +70,8 @@ $(document).ready(function() {
       if(direction === 'down'){
         //change logo text
         $logo.text('IoT: Current Uses');
+        $speech1.text('Oooh! This is here is what IoT')
+        $speech2.text('has allowed us to do currently')
       }
       else if (direction === 'up') {
         $logo.text('IoT: A History').fadeIn();

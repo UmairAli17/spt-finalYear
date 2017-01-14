@@ -36,6 +36,15 @@
 .top-link:hover {
   text-decoration: underline; }
 
+/*SPRITE CSS WITH ANIMATION ***/
+.sprite-container {
+  width: 17.5%;
+  min-width: 17.5%;
+  position: fixed;
+  right: 0;
+  top: 5em;
+  z-index: 5000; }
+
 /*Welcome Section*/
 body {
   font-family: "Merriweather", serif;
@@ -294,7 +303,7 @@ body {
     width: 55%;
     left: 14%;
     top: 5%;
-    font-size: 1em; }
+    font-size: .9em; }
   .time-header {
     font-size: 1.5em;
     top: 10%; }
@@ -312,7 +321,8 @@ body {
     top: 10%; }
   .time-text {
     width: 45%;
-    left: 17.5%; }
+    left: 17.5%;
+    font-size: 1em; }
   .timeRow {
     padding-left: 10%; } }
 
@@ -323,7 +333,8 @@ body {
   .time-text {
     width: 50%;
     top: 10%;
-    left: 15%; } }
+    left: 15%;
+    font-size: 1.19em; } }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1730px) {
