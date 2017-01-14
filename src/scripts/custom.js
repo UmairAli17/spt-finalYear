@@ -70,7 +70,7 @@ $(document).ready(function() {
       if(direction === 'down'){
         //change logo text
         $logo.text('IoT: Current Uses');
-        $speech1.text('Oooh! This is here is what IoT')
+        $speech1.text('Oooh! This here is what IoT')
         $speech2.text('has allowed us to do currently')
       }
       else if (direction === 'up') {
