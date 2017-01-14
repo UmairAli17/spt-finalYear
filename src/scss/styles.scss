@@ -410,6 +410,10 @@ body{
     .tContent{
         left:15%;
     }
+
+    #two{
+        top: 240em;
+    }
 }
 
 @media only screen and (min-width:1224px) {
@@ -434,6 +438,10 @@ body{
     .timeRow{
         padding-left: 10%;
     }
+
+    #two{
+        top: 240em;
+    }
 }
 
 @media only screen
@@ -449,6 +457,10 @@ and (min-width : 1500px){
         top: 10%;
         left: 15%;
         font-size: 1.19em;
+    }
+
+    #two{
+        top: 240em;
     }
 }
 
@@ -476,5 +488,9 @@ and (min-width : 1730px) {
 
     .timeRow{
         padding-left: 10%;
+    }
+
+    #two{
+        top: 245em;
     }
 }

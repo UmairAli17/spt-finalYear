@@ -310,7 +310,9 @@ body {
   .timeRow {
     padding-left: 10%; }
   .tContent {
-    left: 15%; } }
+    left: 15%; }
+  #two {
+    top: 240em; } }
 
 @media only screen and (min-width: 1224px) {
   .cloud-bg-left {
@@ -324,7 +326,9 @@ body {
     left: 17.5%;
     font-size: 1em; }
   .timeRow {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  #two {
+    top: 240em; } }
 
 @media only screen and (min-width: 1500px) {
   .time-header {
@@ -334,7 +338,9 @@ body {
     width: 50%;
     top: 10%;
     left: 15%;
-    font-size: 1.19em; } }
+    font-size: 1.19em; }
+  #two {
+    top: 240em; } }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1730px) {
@@ -350,4 +356,6 @@ body {
   .time-header {
     font-size: 2em; }
   .timeRow {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  #two {
+    top: 245em; } }
