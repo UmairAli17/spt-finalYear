@@ -76,14 +76,19 @@ body {
 
 .welcome {
   min-width: 100%;
-  background-image: url(../images/bg1.png);
+  background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  min-height: 427px;
+  min-height: 585px;
   position: fixed;
   z-index: -5000;
-  margin-top: 50; }
+  margin-top: 5em; }
+
+.welcome-text {
+  position: relative;
+  left: 18em;
+  top: 19em; }
 
 .first-sect-header {
   font-size: 3em;
@@ -98,7 +103,7 @@ body {
   /* here, fixed or relative may work too*/
   left: 0;
   right: 0;
-  top: 55%;
+  top: 100%;
   bottom: 0;
   overflow-x: hidden;
   background-image: url(../images/mountains.png);
@@ -312,7 +317,7 @@ body {
   .tContent {
     left: 15%; }
   #two {
-    top: 240em; } }
+    top: 268em; } }
 
 @media only screen and (min-width: 1224px) {
   .cloud-bg-left {
@@ -328,7 +333,7 @@ body {
   .timeRow {
     padding-left: 10%; }
   #two {
-    top: 240em; } }
+    top: 270em; } }
 
 @media only screen and (min-width: 1500px) {
   .time-header {
@@ -340,7 +345,7 @@ body {
     left: 15%;
     font-size: 1.19em; }
   #two {
-    top: 240em; } }
+    top: 271em; } }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1730px) {
@@ -358,4 +363,4 @@ body {
   .timeRow {
     padding-left: 10%; }
   #two {
-    top: 245em; } }
+    top: 278em; } }

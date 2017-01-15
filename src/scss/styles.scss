@@ -115,14 +115,20 @@ body{
 
 .welcome{
     min-width: 100%;
-    background-image: url(../images/bg1.png);
+    background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
-    min-height: 427px;
+    min-height: 585px;
     position: fixed;
     z-index: -5000;
-    margin-top:50;
+    margin-top:5em;
+}
+
+.welcome-text{
+    position: relative;
+    left: 18em;
+    top: 19em;
 }
 
 
@@ -138,7 +144,7 @@ body{
 #one{
     min-height: 3500px;
     background: $primary-colour-dark;
-    @include content-wrapper(55%);
+    @include content-wrapper(100%);
     overflow-x: hidden;
     background-image: url(../images/mountains.png);
     background-repeat: repeat-x;
@@ -412,7 +418,7 @@ body{
     }
 
     #two{
-        top: 240em;
+        top: 268em;
     }
 }
 
@@ -440,7 +446,7 @@ body{
     }
 
     #two{
-        top: 240em;
+        top: 270em;
     }
 }
 
@@ -460,7 +466,7 @@ and (min-width : 1500px){
     }
 
     #two{
-        top: 240em;
+        top: 271em;
     }
 }
 
@@ -491,7 +497,7 @@ and (min-width : 1730px) {
     }
 
     #two{
-        top: 245em;
+        top: 278em;
     }
 
 }
