@@ -158,6 +158,11 @@ body {
 .margin-top {
   margin-top: 3em; }
 
+.clouds-smiley {
+  position: absolute;
+  top: 191em;
+  right: 2em; }
+
 /****SVG ***/
 /****SVG Clours*/
 .telegraph-base {
