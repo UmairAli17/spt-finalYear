@@ -142,7 +142,7 @@ body{
 
 
 #one{
-    min-height: 3500px;
+    min-height: 3230px;
     background: $primary-colour-dark;
     @include content-wrapper(100%);
     overflow-x: hidden;
@@ -422,7 +422,7 @@ body{
     }
 
     #two{
-        top: 268em;
+        top: 252em;
     }
 }
 
@@ -450,7 +450,7 @@ body{
     }
 
     #two{
-        top: 270em;
+        top: 254em;
     }
 }
 
@@ -470,7 +470,7 @@ and (min-width : 1500px){
     }
 
     #two{
-        top: 271em;
+        top: 250em;
     }
 }
 
@@ -501,7 +501,15 @@ and (min-width : 1730px) {
     }
 
     #two{
-        top: 278em;
+        top: 255em;
     }
 
+}
+
+@media only screen
+and (min-width : 1900px)
+{
+    #two{
+        top: 260em;
+    }
 }

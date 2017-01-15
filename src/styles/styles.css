@@ -97,7 +97,7 @@ body {
   font-family: "Lato", sans-serif; }
 
 #one {
-  min-height: 3500px;
+  min-height: 3230px;
   background: #b2eaff;
   position: absolute;
   /* here, fixed or relative may work too*/
@@ -322,7 +322,7 @@ body {
   .tContent {
     left: 15%; }
   #two {
-    top: 268em; } }
+    top: 252em; } }
 
 @media only screen and (min-width: 1224px) {
   .cloud-bg-left {
@@ -338,7 +338,7 @@ body {
   .timeRow {
     padding-left: 10%; }
   #two {
-    top: 270em; } }
+    top: 254em; } }
 
 @media only screen and (min-width: 1500px) {
   .time-header {
@@ -350,7 +350,7 @@ body {
     left: 15%;
     font-size: 1.19em; }
   #two {
-    top: 271em; } }
+    top: 250em; } }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1730px) {
@@ -368,4 +368,8 @@ body {
   .timeRow {
     padding-left: 10%; }
   #two {
-    top: 278em; } }
+    top: 255em; } }
+
+@media only screen and (min-width: 1900px) {
+  #two {
+    top: 260em; } }
