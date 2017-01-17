@@ -1,4 +1,5 @@
 //First Waypoint
+var $body = $('body');
 var $firstAnimate = $('.leftBox');
 var $secondAnimate = $('.rightBox');
 var $audioWaypoint = $('.audioBox');
@@ -14,8 +15,63 @@ var $sprite = $('.sprite-container');
 var $speech_bubble = $('#speech'); 
 var $speech1 = $('.speech-text1'); 
 var $speech2 = $('.speech-text2');
+var $intro = $('.overlay-container');
+var $enter = $('.enter');
+
+var scrollTop = window.scrollTo(0,0); 
+var $finalSec = $('#three');
+var $secThreeContent = $('.three-titles');
+
+var $finalBtn = $('.danger');
+
+var $dcards = $('.danger-cards');
+var $bye = $('.the-end');
+var $endBtn = $('.finally');
+
+var $endTitles = $('.end-titles');
+
 
 $(document).ready(function() {
+    
+
+
+    /* remove ability to scroll on load */
+    $body.css('overflow-y', 'hidden');
+    // hide the final section until the final button is pressed
+    $finalSec.hide();
+    // hide the good-bye section
+    $bye.hide();
+    /*overlay js*/
+    if (localStorage.getItem("session") === null) {
+        // if there is nothing in session, show the introduction
+        $intro.show();
+        $audio.pause();
+    }
+    // if there is however, hide it. 
+    else{
+      $intro.hide();
+      $body.scrollTop;
+      $body.css('overflow-y', 'visible');
+      $audio.pause();
+    }
+  
+
+    
+    $('.overlay-title').addClass('animated slideInDown');
+    
+    // when user clicks enter button
+    $enter.click(function() {
+      // hide introduction
+      $intro.hide();
+      // set a value to the session so that it will hide it each time
+      localStorage.setItem("session", 1);
+      $body.css('overflow-y', 'visible');
+      $body.scrollTop;
+    });
+    
+    
+    
+    
     // when the website loads, hide the sprite.
     $sprite.css('opacity', 0);
     // hide the speech bubble
@@ -56,7 +112,7 @@ $(document).ready(function() {
     $sec1.waypoint(function(direction){
       if(direction === 'down'){
         //change logo text
-        $logo.text('IoT: A History').fadeIn();
+        $logo.text('Internet of Things: A History').fadeIn();
         
       }
       else if (direction === 'up') {
@@ -158,15 +214,73 @@ $(document).ready(function() {
       offset: '36%'
     });
     
-    $endAudio.waypoint(function(){
-        $audio.pause();
+    $endAudio.waypoint(function(direction){
+        if (direction === 'down')
+        {
+          $audio.pause();
+        }
+        else if (direction === 'up') {
+          $audio.pause();
+        }
+    },{
+      offset: '10%'
     });
 
     // SECTION TWO CARD JS
 
     $('.flip-card').click(function(e) {
-        /*var $cardMusic = $(this.element).children(".card-audio").get(0);
-        $cardMusic.play();*/
         $(this).toggleClass('flipped');
     });
+
+    function showDangerCont()
+    {
+      $('.danger-container').show();
+      $dcards.each(function(i) {
+        $(this).hide().delay(i*1500).fadeIn(2000);
+      });
+    }
+
+
+
+    $finalBtn.click(function() {
+      $body.css('overflow-y', 'hidden');
+
+      $finalSec.fadeIn();
+      $('.danger-container').hide();
+      $secThreeContent.each(function(i) {
+        $(this).hide().delay(i*1500).fadeIn(2000);
+        $(this).last().delay(i*100).fadeOut(1000);
+      });
+
+      //delay the displaying of the danger content
+      setTimeout(showDangerCont, 7000);
+
+    });
+
+    function showTheEndContent(){
+      $('.the-end-farewell').show();
+        $(".end-content-text").typed({
+          strings: ["The End!"],
+          typeSpeed: 0
+        });
+        //remove the session so that the website can be started all over again
+        localStorage.removeItem('session');
+    }
+
+    $endBtn.click(function(){
+
+      $body.css('overflow-y', 'hidden');
+      $bye.show();
+      $('.the-end-farewell').hide();
+      $endTitles.each(function(i) {
+          $(this).hide().delay(i*1500).fadeIn(2000);
+          $(this).last().delay(i*100).fadeOut(1000);
+      });
+
+      setTimeout(showTheEndContent, 7000);
+    });
+    // slideshow code - show each div after another
+    
+
+
 });

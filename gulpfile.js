@@ -40,7 +40,7 @@ return gulp.src('src/images/**/*.+(png|jpg|jpeg|gif|svg)')
    interlaced: true
  })))
 .pipe(gulp.dest('dist/images'))
-});
+ });
 
 //Set up the server
 gulp.task('browserSync', function() {
