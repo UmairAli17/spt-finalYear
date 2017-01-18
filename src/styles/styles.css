@@ -355,14 +355,15 @@ body {
   padding: 1em;
   background: #f7f7f7;
   height: 100%;
-  margin: 1%; }
+  margin: 1%;
+  transition: linear ease-in-out; }
 
 .danger-title {
   font-family: "Lato", sans-serif;
   text-align: center; }
 
 .finally {
-  width: 53.5%; }
+  width: 51.9%; }
 
 .finally:hover {
   background: #2b2b2b;

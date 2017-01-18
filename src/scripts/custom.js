@@ -34,7 +34,6 @@ var $endTitles = $('.end-titles');
 $(document).ready(function() {
     
 
-
     /* remove ability to scroll on load */
     $body.css('overflow-y', 'hidden');
     // hide the final section until the final button is pressed
@@ -46,13 +45,12 @@ $(document).ready(function() {
         // if there is nothing in session, show the introduction
         $intro.show();
         $audio.pause();
+
     }
     // if there is however, hide it. 
     else{
       $intro.hide();
-      $body.scrollTop;
       $body.css('overflow-y', 'visible');
-      $audio.pause();
     }
   
 
@@ -66,7 +64,8 @@ $(document).ready(function() {
       // set a value to the session so that it will hide it each time
       localStorage.setItem("session", 1);
       $body.css('overflow-y', 'visible');
-      $body.scrollTop;
+      $("html, body").scrollTop(0);
+      $audio.pause();
     });
     
     
@@ -128,6 +127,8 @@ $(document).ready(function() {
         $logo.text('IoT: Current Uses');
         $speech1.text('Oooh! This here is what IoT')
         $speech2.text('has allowed us to do currently')
+        // shake the last card..
+        $('.danger').addClass('wobble');
       }
       else if (direction === 'up') {
         $logo.text('IoT: A History').fadeIn();
@@ -214,29 +215,29 @@ $(document).ready(function() {
       offset: '36%'
     });
     
-    $endAudio.waypoint(function(direction){
-        if (direction === 'down')
-        {
-          $audio.pause();
-        }
-        else if (direction === 'up') {
-          $audio.pause();
-        }
-    },{
-      offset: '10%'
+    $endAudio.waypoint(function() {
+      $audio.pause()
     });
+    
 
     // SECTION TWO CARD JS
 
     $('.flip-card').click(function(e) {
         $(this).toggleClass('flipped');
+        //when user clicks the next card, remove the class from the previous one you've just clicked
+        $(this).prev($('.flip-card')).removeClass('flipped');
+        $(this).last($('.flip-card')).addClass('no_flip');
     });
 
     function showDangerCont()
     {
+      //show the container
       $('.danger-container').show();
+      //fade in those cards one after another
       $dcards.each(function(i) {
-        $(this).hide().delay(i*1500).fadeIn(2000);
+        $(this).hide().delay(i*3000).fadeIn(4000);
+        // get the last card and make it shake or wobble to draw attention to it
+        $(this).last().addClass('shake');
       });
     }
 
@@ -247,13 +248,15 @@ $(document).ready(function() {
 
       $finalSec.fadeIn();
       $('.danger-container').hide();
+      //secThreeContent is each of those titles
       $secThreeContent.each(function(i) {
-        $(this).hide().delay(i*1500).fadeIn(2000);
-        $(this).last().delay(i*100).fadeOut(1000);
+        //fade them in after one another
+        $(this).hide().delay(i*3000).fadeIn(4000);
+        $(this).last().delay(i*200).fadeOut(2000);
       });
 
       //delay the displaying of the danger content
-      setTimeout(showDangerCont, 7000);
+      setTimeout(showDangerCont, 14000);
 
     });
 
@@ -281,6 +284,7 @@ $(document).ready(function() {
     });
     // slideshow code - show each div after another
     
+
 
 
 });

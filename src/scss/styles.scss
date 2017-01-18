@@ -444,7 +444,7 @@ body{
     background: #f7f7f7;
     height: 100%;
     margin: 1%;
-
+    transition: linear ease-in-out;
 }
 
 .danger-title{
@@ -453,7 +453,7 @@ body{
 }
 
 .finally{
-    width: 53.5%;
+    width: 51.9%;
 }
 
 .finally:hover{
