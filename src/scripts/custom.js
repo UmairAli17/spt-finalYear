@@ -41,7 +41,7 @@ $(document).ready(function() {
     // hide the good-bye section
     $bye.hide();
     /*overlay js*/
-    if (localStorage.getItem("session") === null) {
+    if (sessionStorage.getItem("session") === null) {
         // if there is nothing in session, show the introduction
         $intro.show();
         $audio.pause();
@@ -62,7 +62,7 @@ $(document).ready(function() {
       // hide introduction
       $intro.hide();
       // set a value to the session so that it will hide it each time
-      localStorage.setItem("session", 1);
+      sessionStorage.setItem("session", 1);
       $body.css('overflow-y', 'visible');
       $("html, body").scrollTop(0);
       $audio.pause();
@@ -267,7 +267,7 @@ $(document).ready(function() {
           typeSpeed: 0
         });
         //remove the session so that the website can be started all over again
-        localStorage.removeItem('session');
+        sessionStorage.removeItem('session');
     }
 
     $endBtn.click(function(){
