@@ -663,6 +663,9 @@ body{
         left: 3.5em;
     }
     
+    .intro-svg{
+        margin-top: 10em;
+    }
 
 }
 
@@ -697,8 +700,8 @@ body{
         left: 7em;
     }
     
-     .intro-overlay-left{
-        
+    .intro-svg{
+        margin-top: 7em;
     }
 }
 
@@ -725,6 +728,9 @@ and (min-width : 1500px){
         left: 12.5em;
     }
     
+    .intro-svg{
+        margin-top: 5em;
+    }
 
 }
 
@@ -761,6 +767,10 @@ and (min-width : 1730px) {
     .welcome-text{
         left: 16em;
     }
+
+    .intro-svg{
+        margin-top: 1em;
+    }
     
 
 
@@ -775,6 +785,10 @@ and (min-width : 1900px)
     
     .welcome-text{
         left: 17.5em;
+    }
+
+    .intro-svg{
+        max-width: 94%;
     }
     
 
@@ -804,6 +818,11 @@ and (min-width : 1980px)
     .danger-card-text{
         font-size: 1em;
     }
+
+    .intro-svg{
+        max-width: 99%;
+        margin-top: 0em;
+    }
 }
 
 @media only screen and (min-width : 2250px){
@@ -816,6 +835,11 @@ and (min-width : 1980px)
 
     .danger-card-text{
         font-size: 1.1em;
+    }
+
+    .intro-svg{
+        max-width: 97%;
+        margin-top: 0em;
     }
 }
 
@@ -833,7 +857,12 @@ and (min-width : 1980px)
             font-size: 2.2em;
         }
         .danger-card-text{
-        font-size: 1.2em;
-    }
+            font-size: 1.2em;
+        }
+
+        .intro-svg{
+            max-width: 95%;
+            margin-top: .1em;
+        }
         
 }

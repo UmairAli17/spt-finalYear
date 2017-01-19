@@ -535,7 +535,9 @@ body {
   #two {
     top: 259em; }
   .welcome-text {
-    left: 3.5em; } }
+    left: 3.5em; }
+  .intro-svg {
+    margin-top: 10em; } }
 
 @media only screen and (min-width: 1224px) {
   .cloud-bg-left {
@@ -553,7 +555,9 @@ body {
   #two {
     top: 260em; }
   .welcome-text {
-    left: 7em; } }
+    left: 7em; }
+  .intro-svg {
+    margin-top: 7em; } }
 
 @media only screen and (min-width: 1500px) {
   .time-header {
@@ -567,7 +571,9 @@ body {
   #two {
     top: 263em; }
   .welcome-text {
-    left: 12.5em; } }
+    left: 12.5em; }
+  .intro-svg {
+    margin-top: 5em; } }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1730px) {
@@ -587,13 +593,17 @@ body {
   #two {
     top: 265em; }
   .welcome-text {
-    left: 16em; } }
+    left: 16em; }
+  .intro-svg {
+    margin-top: 1em; } }
 
 @media only screen and (min-width: 1900px) {
   #two {
     top: 268em; }
   .welcome-text {
-    left: 17.5em; } }
+    left: 17.5em; }
+  .intro-svg {
+    max-width: 94%; } }
 
 @media only screen and (min-width: 1980px) {
   .welcome {
@@ -606,7 +616,10 @@ body {
   #two {
     top: 285em; }
   .danger-card-text {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .intro-svg {
+    max-width: 99%;
+    margin-top: 0em; } }
 
 @media only screen and (min-width: 2250px) {
   #two {
@@ -614,7 +627,10 @@ body {
   .welcome-text {
     left: 23.5em; }
   .danger-card-text {
-    font-size: 1.1em; } }
+    font-size: 1.1em; }
+  .intro-svg {
+    max-width: 97%;
+    margin-top: 0em; } }
 
 @media only screen and (min-width: 2500px) {
   #two {
@@ -624,4 +640,7 @@ body {
   .danger-title {
     font-size: 2.2em; }
   .danger-card-text {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+  .intro-svg {
+    max-width: 95%;
+    margin-top: .1em; } }
