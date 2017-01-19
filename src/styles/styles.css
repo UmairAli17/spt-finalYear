@@ -367,10 +367,12 @@ body {
 
 .danger-title {
   font-family: "Lato", sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.75em; }
 
 .danger-card-text {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-size: .75em; }
 
 .danger-cards-img {
   max-width: 50%;
@@ -602,16 +604,24 @@ body {
   #one {
     min-height: 3700px; }
   #two {
-    top: 285em; } }
+    top: 285em; }
+  .danger-card-text {
+    font-size: 1em; } }
 
 @media only screen and (min-width: 2250px) {
   #two {
     top: 290em; }
   .welcome-text {
-    left: 23.5em; } }
+    left: 23.5em; }
+  .danger-card-text {
+    font-size: 1.1em; } }
 
 @media only screen and (min-width: 2500px) {
   #two {
     top: 298em; }
   .welcome-text {
-    left: 27em; } }
+    left: 27em; }
+  .danger-title {
+    font-size: 2.2em; }
+  .danger-card-text {
+    font-size: 1.2em; } }

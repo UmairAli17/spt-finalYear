@@ -457,10 +457,12 @@ body{
 .danger-title{
     font-family: $header-font;
     text-align: center;  
+    font-size: 1.75em;
 }
 
 .danger-card-text{
     margin-bottom: 0;
+    font-size: .75em;
 }
 
 .danger-cards-img{
@@ -799,7 +801,8 @@ and (min-width : 1980px)
         top: 285em;
     }
     
-    .intro-overlay-left{
+    .danger-card-text{
+        font-size: 1em;
     }
 }
 
@@ -809,6 +812,10 @@ and (min-width : 1980px)
     }
     .welcome-text{
         left: 23.5em;
+    }
+
+    .danger-card-text{
+        font-size: 1.1em;
     }
 }
 
@@ -821,5 +828,12 @@ and (min-width : 1980px)
         .welcome-text{
             left: 27em;
         }
+
+        .danger-title{
+            font-size: 2.2em;
+        }
+        .danger-card-text{
+        font-size: 1.2em;
+    }
         
 }
