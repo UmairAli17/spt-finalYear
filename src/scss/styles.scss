@@ -367,6 +367,7 @@ body{
   width: 25%;
   height: 50%;
   transition: all 0.2s;
+  -webkit-perspective: 1000px;
   perspective: 1000px;
 }
 
@@ -396,14 +397,20 @@ body{
 }
 
 .back-card {
+  -webkit-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
   transform: rotateX(-180deg);
 }
 
 .flipped .back-card {
-  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0);
+  -ms-transform: rotateX(0);
+  transform: rotateX(0);
 }
 
 .flipped .front-card {
+  -webkit-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
   transform: rotateX(180deg);
 }
 
@@ -450,6 +457,17 @@ body{
 .danger-title{
     font-family: $header-font;
     text-align: center;  
+}
+
+.danger-card-text{
+    margin-bottom: 0;
+}
+
+.danger-cards-img{
+    max-width: 50%;
+    max-height: 58%;
+    margin-left:25%;
+    padding: 0;
 }
 
 .finally{
@@ -554,21 +572,21 @@ body{
         -ms-transform: rotate(-7deg);
         -webkit-transform: rotate(-7deg);
         transform: rotate(-7deg);
-        transform-origin: 100%;
+        transform-origin: 167px;
     }
 
     50% {
         -ms-transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-        transform-origin: 100%;
+        transform-origin: 167px;
     }
 
     100%{
         -ms-transform: rotate(5deg);
         -webkit-transform: rotate(5deg);
         transform: rotate(5deg);
-        transform-origin: 100%;
+        transform-origin: 167px;
         webkit-transition: all .5 ease-in-out;
         -moz-transition: all .5 ease-in-out;
         -o-transition: all .5 ease-in-out;

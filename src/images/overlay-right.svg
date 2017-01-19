@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+	viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <g>
 	<defs>
 		<rect id="SVGID_1_" width="1000" height="1000"/>
@@ -10,7 +10,7 @@
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_"  overflow="visible"/>
 	</clipPath>
-	<path clip-path="url(#SVGID_2_)" fill="#0B0E0E" d="M933.256,511.056c0,0-0.06,2.474-0.175,7.269
+	<path class="rotating-line" clip-path="url(#SVGID_2_)" fill="#0B0E0E" d="M933.256,511.056c0,0-0.06,2.474-0.175,7.269
 		c-0.058,2.397-0.129,5.375-0.214,8.913c-0.069,1.769-0.031,3.68-0.196,5.724c-0.153,2.044-0.315,4.226-0.489,6.543
 		c-1.182,18.514-4.153,45.788-13.432,79.252c-1.19,4.17-2.368,8.466-3.656,12.846c-1.459,4.328-2.953,8.763-4.482,13.304
 		c-0.384,1.136-0.769,2.277-1.155,3.427l-0.589,1.725l-0.671,1.706c-0.896,2.282-1.803,4.589-2.72,6.922
@@ -243,32 +243,24 @@
 	<clipPath id="SVGID_14_">
 		<use xlink:href="#SVGID_13_"  overflow="visible"/>
 	</clipPath>
-	<path clip-path="url(#SVGID_14_)" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-miterlimit="10" d="M395.902,490.546
-		c71.155-70.692,185.897-70.318,256.589,0.823"/>
-	<path clip-path="url(#SVGID_14_)" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-miterlimit="10" d="M337.407,449.946
-		c102.131-101.481,266.878-100.949,368.352,1.175"/>
-	<path clip-path="url(#SVGID_14_)" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-miterlimit="10" d="M270.788,405.909
-		c139.212-138.32,363.74-137.594,502.074,1.604"/>
-</g>
-<g>
-	<defs>
-		<rect id="SVGID_15_" width="1000" height="1000"/>
-	</defs>
-	<clipPath id="SVGID_16_">
-		<use xlink:href="#SVGID_15_"  overflow="visible"/>
-	</clipPath>
-	<path clip-path="url(#SVGID_16_)" fill="#41A4DC" d="M847.79,238.927c0,12.201-9.892,22.091-22.092,22.091
+	<path clip-path="url(#SVGID_14_)" fill="#41A4DC" d="M847.79,238.927c0,12.201-9.892,22.091-22.092,22.091
 		s-22.092-9.89-22.092-22.091c0-12.201,9.892-22.091,22.092-22.091S847.79,226.726,847.79,238.927"/>
-	<path clip-path="url(#SVGID_16_)" fill="#59C2EF" d="M841.324,238.694c0,8.759-7.1,15.859-15.858,15.859s-15.859-7.1-15.859-15.859
+	<path clip-path="url(#SVGID_14_)" fill="#59C2EF" d="M841.324,238.694c0,8.759-7.1,15.859-15.858,15.859s-15.859-7.1-15.859-15.859
 		c0-8.759,7.101-15.859,15.859-15.859S841.324,229.936,841.324,238.694"/>
-	<path clip-path="url(#SVGID_16_)" fill="#41A4DC" d="M837.698,791.21c0,12.2-9.892,22.091-22.091,22.091
+	<path clip-path="url(#SVGID_14_)" fill="#41A4DC" d="M837.698,791.21c0,12.2-9.892,22.091-22.091,22.091
 		c-12.201,0-22.092-9.891-22.092-22.091c0-12.201,9.891-22.092,22.092-22.092C827.807,769.118,837.698,779.009,837.698,791.21"/>
-	<path clip-path="url(#SVGID_16_)" fill="#59C2EF" d="M831.233,790.978c0,8.759-7.101,15.858-15.859,15.858
+	<path clip-path="url(#SVGID_14_)" fill="#59C2EF" d="M831.233,790.978c0,8.759-7.101,15.858-15.859,15.858
 		s-15.859-7.1-15.859-15.858c0-8.76,7.101-15.859,15.859-15.859S831.233,782.218,831.233,790.978"/>
-	<path clip-path="url(#SVGID_16_)" fill="#41A4DC" d="M253.725,779.744c0,12.201-9.891,22.092-22.091,22.092
+	<path clip-path="url(#SVGID_14_)" fill="#41A4DC" d="M253.725,779.744c0,12.201-9.891,22.092-22.091,22.092
 		c-12.201,0-22.092-9.891-22.092-22.092c0-12.2,9.891-22.091,22.092-22.091C243.833,757.653,253.725,767.544,253.725,779.744"/>
-	<path clip-path="url(#SVGID_16_)" fill="#59C2EF" d="M247.259,779.512c0,8.759-7.1,15.859-15.859,15.859
+	<path clip-path="url(#SVGID_14_)" fill="#59C2EF" d="M247.259,779.512c0,8.759-7.1,15.859-15.859,15.859
 		c-8.759,0-15.859-7.101-15.859-15.859s7.1-15.858,15.859-15.858C240.16,763.653,247.259,770.753,247.259,779.512"/>
 </g>
-<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="518.67" cy="544" r="44"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="21" stroke-miterlimit="10" d="M332.548,400.793
+	c106.216-106.216,278.422-106.216,384.638,0"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="21" stroke-miterlimit="10" d="M380.186,445.699
+	c80.969-80.967,212.241-80.97,293.208,0"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="21" stroke-miterlimit="10" d="M440.212,507.461
+	c47.302-47.308,124.003-47.302,171.308,0.002"/>
+<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-width="9" stroke-miterlimit="10" cx="524.867" cy="566.391" r="45.893"/>
 </svg>

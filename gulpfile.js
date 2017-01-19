@@ -34,13 +34,13 @@ gulp.task('fonts', function() {
 
 // //minify images
 gulp.task('images', function(){
-return gulp.src('src/images/**/*.+(png|jpg|jpeg|gif|svg)')
+return gulp.src('src/images/**/*.+(png|jpg|jpeg|gif|svg|psd|ai)')
 //Caching images that ran through imagemin
 .pipe(cache(imagemin({
-   interlaced: true
- })))
+  interlaced: true
+})))
 .pipe(gulp.dest('dist/images'))
- });
+});
 
 //Set up the server
 gulp.task('browserSync', function() {
