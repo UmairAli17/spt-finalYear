@@ -7,8 +7,7 @@
 
 1. Waypoints.js
 2. jQuery
-3. Bootstrap.css
-4. Animate.css
+3. Animate.css
 
 ## Getting Started
 
