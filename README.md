@@ -3,7 +3,7 @@
 1. Node.js
 2. Git
 
-# [Plugins & Templates Used]
+# [Libraries Used]
 
 1. Waypoints.js
 2. jQuery
