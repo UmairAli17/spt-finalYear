@@ -1,6 +1,7 @@
 # [Requisites]
 
 1. Node.js
+2. NPM (Node Package Manager)
 2. Git
 
 # [Libraries Used]
