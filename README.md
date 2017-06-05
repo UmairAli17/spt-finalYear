@@ -4,7 +4,17 @@
 2. NPM (Node Package Manager)
 2. Git
 
-# [Libraries Used]
+## [Technologies Used]
+
+1. HTML, CSS
+
+2. SASS
+
+3. jQuery
+
+4. SVG & Animation
+
+## [Libraries Used]
 
 1. Waypoints.js
 2. jQuery
